@@ -30,12 +30,20 @@ add_library(${CMAKE_PROJECT_NAME} SHARED
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
     C:/Users/Me/IdeaProjects/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
-target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC C:/Users/Me/IdeaProjects/libs/spdlog/spdlog/include)
+add_library(mbedcrypto SHARED IMPORTED)
+set_target_properties(mbedcrypto PROPERTIES IMPORTED_LOCATION
+${CMAKE_CURRENT_SOURCE_DIR}/../nativeLibs/${ANDROID_ABI}/libmbedcrypto.so)
+target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
+ C:/Users/Me/IdeaProjects/libs/spdlog/spdlog/include
+ C:/Users/Me/IdeaProjects/libs/mbedtls/mbedtls/include)
+
+
 # Specifies libraries CMake should link to your target library. You
 # can link libraries from various origins, such as libraries defined in this
 # build script, prebuilt third-party libraries, or Android system libraries.
 target_link_libraries(${CMAKE_PROJECT_NAME}
     spdlog
+    mbedcrypto
     # List libraries link to the target library
     android
     log)

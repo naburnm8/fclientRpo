@@ -22,7 +22,9 @@
       "abi": "x86",
       "artifactName": "fclient",
       "output": "C:\\Users\\Me\\IdeaProjects\\MyApplication2\\app\\build\\intermediates\\cxx\\Debug\\272v2w2l\\obj\\x86\\libfclient.so",
-      "runtimeFiles": []
+      "runtimeFiles": [
+        "C:\\Users\\Me\\IdeaProjects\\MyApplication2\\app\\src\\main\\nativeLibs\\x86\\libmbedcrypto.so"
+      ]
     }
   },
   "toolchains": {
