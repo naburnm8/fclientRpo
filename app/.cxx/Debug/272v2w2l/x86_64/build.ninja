@@ -53,7 +53,7 @@ build CMakeFiles/fclient.dir/native-lib.cpp.o: CXX_COMPILER__fclient_Debug C$:/U
   DEFINES = -Dfclient_EXPORTS
   DEP_FILE = CMakeFiles\fclient.dir\native-lib.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/Me/IdeaProjects/libs/spdlog/spdlog/include -IC:/Users/Me/IdeaProjects/libs/mbedtls/mbedtls/include
+  INCLUDES = -IC:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../libs/spdlog/spdlog/include -IC:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../libs/mbedtls/mbedtls/include
   OBJECT_DIR = CMakeFiles\fclient.dir
   OBJECT_FILE_DIR = CMakeFiles\fclient.dir
 
@@ -65,10 +65,10 @@ build CMakeFiles/fclient.dir/native-lib.cpp.o: CXX_COMPILER__fclient_Debug C$:/U
 #############################################
 # Link the shared library C:\Users\Me\IdeaProjects\MyApplication2\app\build\intermediates\cxx\Debug\272v2w2l\obj\x86_64\libfclient.so
 
-build C$:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so: CXX_SHARED_LIBRARY_LINKER__fclient_Debug CMakeFiles/fclient.dir/native-lib.cpp.o | C$:/Users/Me/IdeaProjects/libs/spdlog/build/x86_64/libspdlog.a C$:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../nativeLibs/x86_64/libmbedcrypto.so
+build C$:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so: CXX_SHARED_LIBRARY_LINKER__fclient_Debug CMakeFiles/fclient.dir/native-lib.cpp.o | C$:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../libs/spdlog/build/x86_64/libspdlog.a C$:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../nativeLibs/x86_64/libmbedcrypto.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info
   LINK_FLAGS = -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = C:/Users/Me/IdeaProjects/libs/spdlog/build/x86_64/libspdlog.a  C:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../nativeLibs/x86_64/libmbedcrypto.so  -landroid  -llog  -latomic -lm
+  LINK_LIBRARIES = C:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../libs/spdlog/build/x86_64/libspdlog.a  C:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../nativeLibs/x86_64/libmbedcrypto.so  -landroid  -llog  -latomic -lm
   OBJECT_DIR = CMakeFiles\fclient.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
