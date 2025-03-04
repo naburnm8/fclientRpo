@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
     public static native byte[] randomBytes(int no);
     public static native byte[] encrypt(byte[] key, byte[] data);
     public static native byte[] decrypt(byte[] key, byte[] data);
-    public static native boolean transaction(byte[] trd);
+
     public static byte[] stringToHex(String s){
         byte[] hex;
         try{
@@ -135,4 +135,5 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
         }
         return pin;
     }
+    public static native boolean transaction(byte[] trd);
 }

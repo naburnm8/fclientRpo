@@ -117,6 +117,8 @@ extern "C"
 JNIEXPORT jboolean JNICALL
 Java_ru_bmstu_naburnm8_fclient_MainActivity_transaction(JNIEnv *env, jobject thiz, jbyteArray trd) {
     jclass cls = env->GetObjectClass(thiz);
+    jclass clazz = env->FindClass("ru/bmstu/naburnm8/fclient/MainActivity");
+
     jmethodID id = env->GetMethodID(cls, "enterPin", "(ILjava/lang/String;)Ljava/lang/String;");
     //TRD 9F0206000000000100 = amount = 1р
     uint8_t* p = (uint8_t*)env->GetByteArrayElements (trd, 0);
