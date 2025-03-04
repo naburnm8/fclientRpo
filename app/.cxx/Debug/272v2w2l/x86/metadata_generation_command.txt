@@ -1,4 +1,4 @@
-                        -HC:\Users\Me\IdeaProjects\MyApplication2\app\src\main\cpp
+                        -HC:\Users\Me\IdeaProjects\rpoLabs\app\src\main\cpp
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 -DCMAKE_SYSTEM_VERSION=28
@@ -9,10 +9,10 @@
 -DCMAKE_ANDROID_NDK=C:\Users\Me\AppData\Local\Android\Sdk\ndk\27.0.12077973
 -DCMAKE_TOOLCHAIN_FILE=C:\Users\Me\AppData\Local\Android\Sdk\ndk\27.0.12077973\build\cmake\android.toolchain.cmake
 -DCMAKE_MAKE_PROGRAM=C:\Users\Me\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\Me\IdeaProjects\MyApplication2\app\build\intermediates\cxx\Debug\272v2w2l\obj\x86
--DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\Me\IdeaProjects\MyApplication2\app\build\intermediates\cxx\Debug\272v2w2l\obj\x86
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\Me\IdeaProjects\rpoLabs\app\build\intermediates\cxx\Debug\272v2w2l\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\Me\IdeaProjects\rpoLabs\app\build\intermediates\cxx\Debug\272v2w2l\obj\x86
 -DCMAKE_BUILD_TYPE=Debug
--BC:\Users\Me\IdeaProjects\MyApplication2\app\.cxx\Debug\272v2w2l\x86
+-BC:\Users\Me\IdeaProjects\rpoLabs\app\.cxx\Debug\272v2w2l\x86
 -GNinja
                         Build command args: []
                         Version: 2

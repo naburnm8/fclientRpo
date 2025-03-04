@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp
+# Install script for directory: C:/Users/Me/IdeaProjects/rpoLabs/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Me/IdeaProjects/MyApplication2/app/.cxx/Debug/272v2w2l/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Me/IdeaProjects/rpoLabs/app/.cxx/Debug/272v2w2l/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

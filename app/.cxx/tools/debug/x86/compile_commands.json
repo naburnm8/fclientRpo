@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/Users/Me/IdeaProjects/MyApplication2/app/.cxx/Debug/272v2w2l/x86",
-  "command": "C:\\Users\\Me\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android28 --sysroot=C:/Users/Me/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dfclient_EXPORTS -IC:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../libs/spdlog/spdlog/include -IC:/Users/Me/IdeaProjects/MyApplication2/app/src/main/cpp/../libs/mbedtls/mbedtls/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\fclient.dir\\native-lib.cpp.o -c C:\\Users\\Me\\IdeaProjects\\MyApplication2\\app\\src\\main\\cpp\\native-lib.cpp",
-  "file": "C:\\Users\\Me\\IdeaProjects\\MyApplication2\\app\\src\\main\\cpp\\native-lib.cpp"
+  "directory": "C:/Users/Me/IdeaProjects/rpoLabs/app/.cxx/Debug/42q423v5/x86",
+  "command": "C:\\Users\\Me\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android28 --sysroot=C:/Users/Me/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dfclient_EXPORTS -IC:/Users/Me/IdeaProjects/rpoLabs/app/src/main/cpp/../libs/spdlog/spdlog/include -IC:/Users/Me/IdeaProjects/rpoLabs/app/src/main/cpp/../libs/mbedtls/mbedtls/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\fclient.dir\\native-lib.cpp.o -c C:\\Users\\Me\\IdeaProjects\\rpoLabs\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "C:\\Users\\Me\\IdeaProjects\\rpoLabs\\app\\src\\main\\cpp\\native-lib.cpp"
 }
 ]

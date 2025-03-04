@@ -1,21 +1,3 @@
 # ninja log v5
-4058	4183	7618320228499032	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	6e27a6d7e3df3c09
-5	4057	7618320226752146	CMakeFiles/fclient.dir/native-lib.cpp.o	53e48514b7b9870a
-35	12690	7619622354461693	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-12691	13013	7619622358076120	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-36	17047	7627890412429293	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-17048	17371	7627890416127531	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-20	6746	7627912604281947	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-6747	6977	7627912607167342	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-12	6486	7627913504534225	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-6486	6694	7627913507180452	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-14	6447	7627918795153668	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-6448	6619	7627918797316654	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-35	15284	7627931544802815	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-15285	15635	7627931548864015	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-9	6194	7627941554805511	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-6195	6402	7627941557352458	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-15	5344	7628198646392811	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-5344	5528	7628198648687695	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
-10	6240	7628199831562797	CMakeFiles/fclient.dir/native-lib.cpp.o	432215c9f92fe068
-6241	6397	7628199833531863	C:/Users/Me/IdeaProjects/MyApplication2/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	d2f4d509daa3308e
+1	10789	7628201948045889	CMakeFiles/fclient.dir/native-lib.cpp.o	142c9aff56501c95
+10797	10956	7628201950054203	C:/Users/Me/IdeaProjects/rpoLabs/app/build/intermediates/cxx/Debug/272v2w2l/obj/x86_64/libfclient.so	8c802c4c4575a3cf
