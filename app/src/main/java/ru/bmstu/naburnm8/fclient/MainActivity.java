@@ -12,9 +12,16 @@ import android.os.Bundle;
 import android.widget.TextView;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
+import org.apache.commons.io.IOUtils;
+
 import ru.bmstu.naburnm8.fclient.databinding.ActivityMainBinding;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity implements TransactionEvents {
 
@@ -28,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
     private ActivityMainBinding binding;
 
     private Button button;
+    private TextView textView;
 
     private String pin;
 
@@ -41,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
 
         button = findViewById(R.id.button);
 
+        textView = findViewById(R.id.textView);
+
         button.setOnClickListener(v -> {
             /*
             byte[] key = stringToHex("0123456789ABCDEF0123456789ABCDE0");
@@ -52,7 +62,10 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
             Intent it = new Intent(this, PinpadActivity.class);
             activityResultLauncher.launch(it);
              */
+            testHttpClient();
+        });
 
+        button.setOnLongClickListener(view -> {
             new Thread(() -> {
                 try {
                     byte[] trd = stringToHex("9F0206000000000100");
@@ -62,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
                     Log.e("MainActivity.transaction", ex.getMessage());
                 }
             }).start();
+            return true;
         });
 
         activityResultLauncher = registerForActivityResult(
@@ -141,4 +155,34 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
     }
 
     public native boolean transaction(byte[] trd);
+
+    protected String getPageTitle(String html)
+    {
+        Pattern pattern = Pattern.compile("<title>(.+?)</title>", Pattern.DOTALL);
+        Matcher matcher = pattern.matcher(html);
+        String p;
+        if (matcher.find())
+            p = matcher.group(1);
+        else
+            p = "Not found";
+        return p;
+    }
+    protected void testHttpClient(){
+        new Thread(() -> {
+            try {
+                HttpURLConnection uc = (HttpURLConnection)
+                        (new URL("http://10.0.2.2:8080/api/v1/title").openConnection());
+                InputStream inputStream = uc.getInputStream();
+                String html = IOUtils.toString(inputStream);
+                String title = getPageTitle(html);
+                runOnUiThread(() ->
+                {
+                    textView.setText(title);
+                });
+
+            } catch (Exception ex) {
+                Log.e("fapptag", "Http client fails", ex);
+            }
+        }).start();
+    }
 }
